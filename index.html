@@ -1,0 +1,48 @@
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Registration Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Travel Registration Form</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label>Chooose Gender:</label>
+      <div class="gender-options">
+        <input type="radio" id="male" name="gender" value="Male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="Female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="others" name="gender" value="Others">
+        <label for="others">Others</label>
+      </div>
+
+      <label for="city">City of Travel</label>
+      <select id="city" name="city" required>
+        <option value="">--Select City--</option>
+        <option value="Surat">Surat</option>
+        <option value="Ahmedabad">Ahmedabad</option>
+        <option value="Vadodara">Vadodara</option>
+        <option value="Gandhinagar">Gandhinagar</option>
+        <option value="Waghodia">Waghodia</option>
+      </select>
+
+      <button type="submit">Register</button>
+    </form>
+  </div>
+</body>
+</html>
